@@ -22,6 +22,8 @@ Route::middleware(['auth', 'verified'])->group(function() {
     Route::view("/dashboard", "dashboard")->name("dashboard");
     Route::view("/stake", "stake")->name("stake");
     Route::view("/class", "class")->name("class");
+    Route::view("/saff", "saff")->name("saff");
+    Route::view("/school", "school")->name("school");
 });
 
 /* Route::get('/dashboard', function () {

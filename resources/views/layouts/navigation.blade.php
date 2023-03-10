@@ -21,6 +21,16 @@
                         الحصة
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:mr-2 sm:flex">
+                    <x-nav-link :href="route('saff')" :active="request()->routeIs('saff')">
+                        الصف
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:mr-2 sm:flex">
+                    <x-nav-link :href="route('school')" :active="request()->routeIs('school')">
+                        المدرسة
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
